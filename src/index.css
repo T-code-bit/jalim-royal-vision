@@ -1,42 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Jalim Kings Studio Design System - Premium Photography Aesthetic */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Premium Photography Studio Color Palette */
+    --background: 0 0% 98%;
+    --foreground: 215 15% 12%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 215 15% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 215 15% 12%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Deep Charcoal Primary */
+    --primary: 215 15% 12%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Soft Light Secondary */
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 215 15% 12%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 0 0% 94%;
+    --muted-foreground: 215 8% 46%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Gold Accent */
+    --accent: 45 100% 60%;
+    --accent-foreground: 215 15% 12%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Royal Purple Luxury */
+    --luxury: 264 83% 14%;
+    --luxury-foreground: 0 0% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
 
-    --radius: 0.5rem;
+    --border: 0 0% 90%;
+    --input: 0 0% 96%;
+    --ring: 45 100% 60%;
+
+    --radius: 0.75rem;
+
+    /* Premium Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(215 15% 12%) 0%, hsl(264 83% 14%) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(45 100% 60%) 0%, hsl(35 100% 50%) 100%);
+    --gradient-luxury: linear-gradient(135deg, hsl(264 83% 14%) 0%, hsl(280 100% 8%) 100%);
+    
+    /* Premium Shadows */
+    --shadow-luxury: 0 25px 50px -12px hsl(215 15% 12% / 0.25);
+    --shadow-gold: 0 20px 40px -8px hsl(45 100% 60% / 0.3);
+    --shadow-soft: 0 10px 30px -5px hsl(215 15% 12% / 0.1);
+
+    /* Animation Variables */
+    --animation-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --animation-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --sidebar-background: 0 0% 98%;
 
@@ -56,41 +78,80 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    /* Dark Mode - Matte Black Premium */
+    --background: 215 15% 8%;
+    --foreground: 0 0% 95%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 215 15% 10%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 215 15% 10%;
+    --popover-foreground: 0 0% 95%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 0 0% 95%;
+    --primary-foreground: 215 15% 8%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 215 15% 15%;
+    --secondary-foreground: 0 0% 95%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 215 15% 15%;
+    --muted-foreground: 0 0% 65%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 45 100% 60%;
+    --accent-foreground: 215 15% 8%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --luxury: 264 83% 25%;
+    --luxury-foreground: 0 0% 95%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 95%;
+
+    --border: 215 15% 20%;
+    --input: 215 15% 15%;
+    --ring: 45 100% 60%;
+
+    /* Dark Mode Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(215 15% 8%) 0%, hsl(264 83% 12%) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(45 100% 60%) 0%, hsl(35 100% 50%) 100%);
+    --gradient-luxury: linear-gradient(135deg, hsl(264 83% 25%) 0%, hsl(280 100% 15%) 100%);
+  }
+}
+
+@layer components {
+  /* Premium Animation Classes */
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .animate-glow {
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 0.6s ease-out forwards;
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+
+  /* Luxury Button Styles */
+  .btn-luxury {
+    @apply bg-gradient-to-r from-accent to-yellow-400 text-primary font-semibold px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300;
+  }
+  
+  .btn-royal {
+    @apply bg-gradient-to-r from-luxury to-purple-900 text-luxury-foreground font-semibold px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300;
+  }
+
+  /* Glass Effect */
+  .glass {
+    @apply bg-white/10 backdrop-blur-md border border-white/20;
+  }
+
+  /* Smooth Hover Effects */
+  .hover-lift {
+    @apply transition-all duration-300 hover:transform hover:scale-105 hover:shadow-2xl;
   }
 }
 
@@ -100,6 +161,46 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-inter antialiased overflow-x-hidden;
   }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-playfair;
+  }
+}
+
+/* Keyframe Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes glow {
+  from { box-shadow: 0 0 20px hsl(var(--accent) / 0.3); }
+  to { box-shadow: 0 0 30px hsl(var(--accent) / 0.6), 0 0 40px hsl(var(--accent) / 0.4); }
+}
+
+@keyframes slideUp {
+  from { 
+    opacity: 0; 
+    transform: translateY(50px); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+
+@keyframes fadeIn {
+  from { 
+    opacity: 0; 
+  }
+  to { 
+    opacity: 1; 
+  }
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
 }
