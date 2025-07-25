@@ -4,13 +4,13 @@ import { Card, CardContent } from '@/components/ui/card';
 const Team = () => {
   const teamMembers = [
     {
-      name: "James Kiprotich",
-      position: "Lead Photographer & Creative Director",
+      name: "Brian Olela(TRIBAL)",
+      position: "Lead Photography Editor",
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
-      speciality: "Wedding & Portrait Photography",
-      experience: "8+ Years",
+      speciality: "Chief Editor in Wedding & Portrait Photography",
+      experience: "2+ Years",
       icon: <Camera className="w-5 h-5" />,
-      description: "James founded Jalim Kings Studio with a vision to capture life's most precious moments. His artistic eye and technical expertise have made him Eldoret's most sought-after wedding photographer.",
+      description: "Tribal founded Jalim Kings Studio with a vision to capture life's most precious moments. His artistic eye and technical expertise have made him Eldoret's most sought-after wedding photographer.",
       achievements: ["Over 200 weddings captured", "Featured in Kenyan Wedding Magazine", "Award-winning portrait artist"]
     },
     {
