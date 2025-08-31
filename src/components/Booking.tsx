@@ -66,7 +66,7 @@ ${formData.message}
 
 Looking forward to hearing from you!`;
 
-    const whatsappUrl = `https://wa.me/254700000000?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/254782662427?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -244,7 +244,7 @@ Looking forward to hearing from you!`;
             </h3>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
-                onClick={() => window.open('tel:+254700000000', '_self')}
+                onClick={() => window.open('tel:+254782662427', '_self')}
                 variant="outline"
                 className="border-accent text-accent hover:bg-accent hover:text-accent-foreground"
               >
@@ -252,7 +252,7 @@ Looking forward to hearing from you!`;
                 Call Us: +254 7XX XXX XXX
               </Button>
               <Button
-                onClick={() => window.open('https://wa.me/254700000000', '_blank')}
+                onClick={() => window.open('https://wa.me/254782662427', '_blank')}
                 className="bg-green-600 hover:bg-green-700 text-white"
               >
                 <MessageSquare className="w-4 h-4 mr-2" />
