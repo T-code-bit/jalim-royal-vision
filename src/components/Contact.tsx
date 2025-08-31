@@ -6,20 +6,20 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Studio Location",
-      details: ["Eldoret, Kenya", "Near Kenya Commercial Bank", "Oloo Street, 2nd Floor"],
+      details: ["Eldoret, Kenya", "Opposite Equity Sokoni Branch", "Komora Building, 2nd Floor Room 204"],
       action: () => window.open('https://maps.google.com/?q=Eldoret,Kenya', '_blank')
     },
     {
       icon: Phone,
       title: "Phone & WhatsApp",
       details: ["+254 7XX XXX XXX", "Available 9AM - 9PM", "Quick Response Guaranteed"],
-      action: () => window.open('tel:+254700000000', '_self')
+      action: () => window.open('tel:+254782662427', '_self')
     },
     {
       icon: Mail,
       title: "Email Address",
-      details: ["hello@jalimkingsstudio.co.ke", "Inquiries & Bookings", "24-hour Response Time"],
-      action: () => window.open('mailto:hello@jalimkingsstudio.co.ke', '_self')
+      details: ["khoolkheed@gmail.com", "Inquiries & Bookings", "24-hour Response Time"],
+      action: () => window.open('khoolkheed@gmail.com', '_self')
     },
     {
       icon: Clock,
@@ -48,7 +48,7 @@ const Contact = () => {
       icon: MessageSquare,
       name: "WhatsApp",
       handle: "Chat Instantly",
-      url: "https://wa.me/254700000000",
+      url: "https://wa.me/254782662427",
       color: "hover:text-green-500"
     }
   ];
@@ -121,7 +121,7 @@ const Contact = () => {
                     <MapPin className="w-12 h-12 text-accent mx-auto mb-3" />
                     <p className="text-foreground font-semibold">Interactive Map</p>
                     <p className="text-muted-foreground text-sm mt-1">
-                      Oloo Street, 2nd Floor, Eldoret
+                      Komora Building, 2nd Floor Room 204, Eldoret
                     </p>
                     <Button
                       onClick={() => window.open('https://maps.google.com/?q=Eldoret,Kenya', '_blank')}
@@ -178,14 +178,14 @@ const Contact = () => {
                 </p>
                 <div className="space-y-3">
                   <Button
-                    onClick={() => window.open('https://wa.me/254700000000', '_blank')}
+                    onClick={() => window.open('https://wa.me/254782662427', '_blank')}
                     className="w-full bg-green-600 hover:bg-green-700 text-white"
                   >
                     <MessageSquare className="w-4 h-4 mr-2" />
                     WhatsApp Now
                   </Button>
                   <Button
-                    onClick={() => window.open('tel:+254700000000', '_self')}
+                    onClick={() => window.open('tel:+254782662427', '_self')}
                     variant="outline"
                     className="w-full border-white/30 text-white hover:bg-white/20"
                   >
