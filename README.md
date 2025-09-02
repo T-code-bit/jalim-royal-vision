@@ -1,73 +1,74 @@
-# Welcome to your Lovable project
+# 📸 Jalim Kings Studio  
 
-## Project info
+Welcome to **Jalim Kings Studio** — where photography meets creativity.  
+We specialize in capturing timeless moments, from weddings and portraits to events and professional shoots.  
 
-**URL**: https://lovable.dev/projects/9ebdea74-c19d-4794-8013-7e143d973aca
+<p align="center">
+  <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Jalim Kings Studio Banner"/>
+</p>
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🌟 Why Choose Us?  
 
-**Use Lovable**
+✅ **Professional Quality** — High-end equipment & expert editing  
+✅ **Affordable Packages** — Transparent pricing in KES  
+✅ **Creative Team** — Passionate photographers & editors  
+✅ **Client Satisfaction** — We capture not just photos, but memories  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9ebdea74-c19d-4794-8013-7e143d973aca) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🎨 Our Services  
 
-**Use your preferred IDE**
+- 📷 Wedding Photography  
+- 👩‍🎓 Graduation & Portraits  
+- 🎉 Events & Parties  
+- 🏢 Corporate & Product Shoots  
+- 🎬 Creative Studio Sessions  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 💸 Pricing (KES)  
 
-Follow these steps:
+| Package          | Price     | Includes |
+|------------------|-----------|----------|
+| **Basic**        | 5,000 KES | 1-hour studio session + 10 edits |
+| **Premium**      | 12,000 KES | Event coverage + 50 edits |
+| **Luxury**       | 25,000 KES | Full wedding coverage + printed photo album |
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🖼️ Portfolio  
 
-# Step 3: Install the necessary dependencies.
-npm i
+<p align="center">
+  <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" width="20%" />
+  <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" width="30%" />
+  <img src="https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" width="30%" />
+</p>
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 🌍 Live Project  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🔗 [Visit Jalim Kings Studio Website](https://jalim.netlify.app/)  
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📲 Contact Us  
 
-## What technologies are used for this project?
+📍 **Jalim Kings Studio**  
+- 📱 WhatsApp: [+254 782662427](https://wa.me/254782662427)  
+- 📷 Instagram: [@jalimkingsstudio](https://instagram.com/jalimkingsstudio)  
+- 👍 Facebook: [Jalim Kings Studio](https://facebook.com/jalimkingsstudio)  
+- 🌐 Website: [www.jalimkingsstudio.com](https://www.jalimkingsstudio.com)  
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🏆 Our Promise  
 
-## How can I deploy this project?
+At **Jalim Kings Studio**, we don’t just take photos —  
+we craft **stories that last a lifetime**. ✨  
 
-Simply open [Lovable](https://lovable.dev/projects/9ebdea74-c19d-4794-8013-7e143d973aca) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+<p align="center">
+  © 2025 Jalim Kings Studio | All Rights Reserved
+</p>
