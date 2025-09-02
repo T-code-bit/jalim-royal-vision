@@ -5,36 +5,36 @@ const Team = () => {
   const teamMembers = [
     {
       name: "Brian Olela(TRIBAL)",
-      position: "Lead Photography Editor",
+      position: "Editor",
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
-      speciality: "Chief Editor in Wedding & Portrait Photography",
+      speciality: "Editor in all Photography",
       experience: "2+ Years",
       icon: <Camera className="w-5 h-5" />,
       description: "Tribal founded Jalim Kings Studio with a vision to capture life's most precious moments. His artistic eye and technical expertise have made him Eldoret's most sought-after wedding photographer.",
       achievements: ["Over 200 weddings captured", "Featured in Kenyan Wedding Magazine", "Award-winning portrait artist"]
     },
     {
-      name: "Sarah Cherotich",
-      position: "Senior Portrait Photographer",
+      name: "Terries",
+      position: "Photographer",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
       speciality: "Fashion & Beauty Photography",
-      experience: "6+ Years",
+      experience: "3+ Years",
       icon: <Star className="w-5 h-5" />,
-      description: "Sarah's keen eye for detail and passion for fashion photography brings out the best in every subject. She specializes in creating stunning portraits that tell compelling stories.",
+      description: "Terries keen eye for detail and passion for fashion photography brings out the best in every subject. She specializes in creating stunning portraits that tell compelling stories.",
       achievements: ["1000+ portrait sessions", "Fashion week photographer", "Beauty brand collaborations"]
     },
     {
-      name: "David Kiplagat",
-      position: "Event & Corporate Photographer",
+      name: "Anthony",
+      position: "Assistant Photographer",
       image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952",
-      speciality: "Corporate Events & Conferences",
-      experience: "7+ Years",
+      speciality: "Potraits Photography",
+      experience: "4+ Years",
       icon: <Trophy className="w-5 h-5" />,
       description: "David's expertise in event photography ensures no moment goes unnoticed. His ability to blend into crowds while capturing key moments makes him invaluable for corporate events.",
       achievements: ["500+ corporate events", "Government event photographer", "International conference coverage"]
     },
     {
-      name: "Grace Wanjiku",
+      name: "Jalim",
       position: "Product & Commercial Photographer",
       image: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b",
       speciality: "E-commerce & Brand Photography",
@@ -43,16 +43,7 @@ const Team = () => {
       description: "Grace transforms ordinary products into extraordinary visual stories. Her commercial photography helps brands stand out in competitive markets with stunning product imagery.",
       achievements: ["300+ product campaigns", "Top e-commerce photographer", "Brand partnerships across Kenya"]
     },
-    {
-      name: "Michael Rotich",
-      position: "Wedding Cinematographer",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
-      speciality: "Wedding Films & Music Videos",
-      experience: "4+ Years",
-      icon: <Heart className="w-5 h-5" />,
-      description: "Michael brings cinematic magic to wedding films, creating emotional stories that couples treasure forever. His background in film production adds a professional touch to every project.",
-      achievements: ["150+ wedding films", "Music video director", "Cinematic storytelling expert"]
-    },
+    
     {
       name: "Lucy Akinyi",
       position: "Studio Manager & Client Relations",
