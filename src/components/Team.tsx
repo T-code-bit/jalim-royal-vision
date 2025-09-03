@@ -4,7 +4,7 @@ import { Card, CardContent } from '@/components/ui/card';
 const Team = () => {
   const teamMembers = [
     {
-      name: "Brian Olela(TRIBAL)",
+      name: "Brayo",
       position: "Editor",
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
       speciality: "Editor in all Photography",
