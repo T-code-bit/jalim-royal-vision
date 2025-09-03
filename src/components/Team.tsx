@@ -26,7 +26,7 @@ const Team = () => {
     {
       name: "Anthony",
       position: "Assistant Photographer",
-      image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952",
+      image: "https://file.bwmxmd.online/bwmxmd_1vna2.jpeg",
       speciality: "Potraits Photography",
       experience: "4+ Years",
       icon: <Trophy className="w-5 h-5" />,
