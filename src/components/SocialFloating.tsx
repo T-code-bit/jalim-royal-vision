@@ -13,10 +13,10 @@ const SocialFloating = () => {
       hoverColor: 'hover:from-pink-600 hover:to-purple-700'
     },
     {
-      icon: Tiktok,
-      name: 'Tiktok',
+      icon: Facebook,
+      name: 'Facebook',
       url: 'https://www.tiktok.com/@jalimkingstudiospa23?_t=ZM-8zPlUN6zwla&_r=1',
-      color: 'from-black-500 to-white-700',
+      color: 'from-blue-500 to-blue-700',
       hoverColor: 'hover:from-blue-600 hover:to-blue-800'
     },
     {
