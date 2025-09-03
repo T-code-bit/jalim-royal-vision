@@ -30,7 +30,7 @@ const Team = () => {
       speciality: "Potraits Photography",
       experience: "4+ Years",
       icon: <Trophy className="w-5 h-5" />,
-      description: "David's expertise in event photography ensures no moment goes unnoticed. His ability to blend into crowds while capturing key moments makes him invaluable for corporate events.",
+      description: "Anthony's expertise in photography ensures no moment goes unnoticed. His ability to blend into crowds while capturing key moments makes him invaluable for corporate events.",
       achievements: ["500+ corporate events", "Government event photographer", "International conference coverage"]
     },
     {
@@ -40,7 +40,7 @@ const Team = () => {
       speciality: "Client Experience & Operations",
       experience: "3+ Years",
       icon: <Award className="w-5 h-5" />,
-      description: "Lucy ensures every client receives the royal treatment they deserve. Her attention to detail and warm personality make the studio experience memorable from booking to delivery.",
+      description: "As the Studio Manager at Jalim Kings Studio in Eldoret, I ensure every shoot runs smoothly, every client feels at home, and every creative vision comes to life. From planning to execution, I keep the heartbeat of the studio steady — managing people, projects, and passion under one roof. Excellence isn’t just our goal — it’s our standard. Its where the art meets the lens",
       achievements: ["98% client satisfaction rate", "Luxury service specialist", "Operations excellence award"]
     }
   ];
