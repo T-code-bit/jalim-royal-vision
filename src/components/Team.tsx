@@ -6,7 +6,7 @@ const Team = () => {
     {
       name: "Brayo",
       position: "Editor",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+      image: "https://file.bwmxmd.online/bwmxmd_jcr2u.jpeg",
       speciality: "Editor in all Photography",
       experience: "2+ Years",
       icon: <Camera className="w-5 h-5" />,
@@ -35,17 +35,6 @@ const Team = () => {
     },
     {
       name: "Jalim",
-      position: "Product & Commercial Photographer",
-      image: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b",
-      speciality: "E-commerce & Brand Photography",
-      experience: "5+ Years",
-      icon: <Zap className="w-5 h-5" />,
-      description: "Grace transforms ordinary products into extraordinary visual stories. Her commercial photography helps brands stand out in competitive markets with stunning product imagery.",
-      achievements: ["300+ product campaigns", "Top e-commerce photographer", "Brand partnerships across Kenya"]
-    },
-    
-    {
-      name: "Lucy Akinyi",
       position: "Studio Manager & Client Relations",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
       speciality: "Client Experience & Operations",
