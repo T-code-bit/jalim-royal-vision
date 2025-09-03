@@ -10,17 +10,17 @@ const Team = () => {
       speciality: "Editor in all Photography",
       experience: "2+ Years",
       icon: <Camera className="w-5 h-5" />,
-      description: "Tribal founded Jalim Kings Studio with a vision to capture life's most precious moments. His artistic eye and technical expertise have made him Eldoret's most sought-after wedding photographer.",
+      description: "As the Editor at Jalim Kings Studio in Eldoret town, I turn raw moments into visual masterpieces. Every detail is crafted with care, every color chosen with purpose. Behind each unforgettable photo is my passion for storytelling through editing. This is where emotion meets precision — and it all happens right here in Eldoret.",
       achievements: ["Over 200 weddings captured", "Featured in Kenyan Wedding Magazine", "Award-winning portrait artist"]
     },
     {
       name: "Terries",
       position: "Photographer",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+      image: "https://file.bwmxmd.online/bwmxmd_39ihv.jpeg",
       speciality: "Fashion & Beauty Photography",
       experience: "3+ Years",
       icon: <Star className="w-5 h-5" />,
-      description: "Terries keen eye for detail and passion for fashion photography brings out the best in every subject. She specializes in creating stunning portraits that tell compelling stories.",
+      description: "Terries keen eye for detail and passion for fashion photography brings out the best in every subject. He specializes in creating stunning portraits that tell compelling stories.",
       achievements: ["1000+ portrait sessions", "Fashion week photographer", "Beauty brand collaborations"]
     },
     {
