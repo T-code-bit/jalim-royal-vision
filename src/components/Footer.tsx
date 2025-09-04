@@ -125,7 +125,7 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
                 <div>
-                  <p className="text-white/90">Oloo Street, 2nd Floor</p>
+                  <p className="text-white/90">Jalim KIngs Studio, Opposite Sarova</p>
                   <p className="text-white/70 text-sm">Eldoret, Kenya</p>
                 </div>
               </div>
@@ -133,20 +133,20 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-accent flex-shrink-0" />
                 <a 
-                  href="tel:+254700000000"
+                  href="tel:+254782662427"
                   className="text-white/90 hover:text-accent transition-colors"
                 >
-                  +254 7XX XXX XXX
+                  +254 782662427
                 </a>
               </div>
               
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-accent flex-shrink-0" />
                 <a 
-                  href="mailto:hello@jalimkingsstudio.co.ke"
+                  href="mailto:khoolkheed@gmail.com"
                   className="text-white/90 hover:text-accent transition-colors"
                 >
-                  hello@jalimkingsstudio.co.ke
+                 khoolkheed@gmail.com
                 </a>
               </div>
 
