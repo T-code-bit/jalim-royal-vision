@@ -249,7 +249,7 @@ Looking forward to hearing from you!`;
                 className="border-accent text-accent hover:bg-accent hover:text-accent-foreground"
               >
                 <Phone className="w-4 h-4 mr-2" />
-                Call Us: +254 7XX XXX XXX
+                Call Us: +254 782 662 427
               </Button>
               <Button
                 onClick={() => window.open('https://wa.me/254782662427', '_blank')}
