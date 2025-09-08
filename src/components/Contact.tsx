@@ -12,7 +12,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone & WhatsApp",
-      details: ["+254 7XX XXX XXX", "Available 9AM - 9PM", "Quick Response Guaranteed"],
+      details: ["+254 782662427", "Available 9AM - 9PM", "Quick Response Guaranteed"],
       action: () => window.open('tel:+254782662427', '_self')
     },
     {
