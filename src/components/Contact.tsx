@@ -6,7 +6,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Studio Location",
-      details: ["Eldoret, Kenya", "Opposite Equity Sokoni Branch", "Komora Building, 2nd Floor Room 204"],
+      details: ["Eldoret, Kenya", "University of Eldoret", "Opposite Sarova Hotel, 2nd Branch"],
       action: () => window.open('https://maps.google.com/?q=Eldoret,Kenya', '_blank')
     },
     {
