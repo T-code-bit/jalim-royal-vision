@@ -167,7 +167,7 @@ const Services = () => {
                 Schedule Consultation
               </Button>
               <Button 
-                onClick={() => window.open('https://wa.me/254700000000', '_blank')}
+                onClick={() => window.open('https://wa.me/254782662427', '_blank')}
                 className="bg-white/20 hover:bg-white/30 text-white border border-white/30 text-lg px-8 py-4"
               >
                 WhatsApp Us
