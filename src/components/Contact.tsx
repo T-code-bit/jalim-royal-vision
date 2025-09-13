@@ -6,7 +6,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Studio Location",
-      details: ["Eldoret, Kenya", "University of Eldoret", "Opposite Sarova Hotel, 2nd Branch"],
+      details: ["Eldoret, Kenya", "University of Eldoret", "Opposite Sarova Hotel"],
       action: () => window.open('https://maps.google.com/?q=Eldoret,Kenya', '_blank')
     },
     {
@@ -34,14 +34,14 @@ const Contact = () => {
       icon: Instagram,
       name: "Instagram",
       handle: "@jalimkingsstudio",
-      url: "https://instagram.com/jalimkingsstudio",
+      url: "https://instagram.com/jalimkingsstudiospa123",
       color: "hover:text-pink-500"
     },
     {
       icon: Facebook,
       name: "Facebook",
       handle: "Jalim Kings Studio",
-      url: "https://facebook.com/jalimkingsstudio",
+      url: "https://facebook.com/jalimkingsstudiospa123",
       color: "hover:text-blue-600"
     },
     {
@@ -121,10 +121,10 @@ const Contact = () => {
                     <MapPin className="w-12 h-12 text-accent mx-auto mb-3" />
                     <p className="text-foreground font-semibold">Interactive Map</p>
                     <p className="text-muted-foreground text-sm mt-1">
-                      Komora Building, 2nd Floor Room 204, Eldoret
+                      University of Eldoret, Opposite Sarova Hotel, Eldoret
                     </p>
                     <Button
-                      onClick={() => window.open('https://maps.google.com/?q=Eldoret,Kenya', '_blank')}
+                      onClick={() => window.open('https://maps.google.com/?q=University Of Eldoret,Kenya', '_blank')}
                       className="mt-4 btn-luxury"
                     >
                       View on Google Maps

@@ -32,9 +32,9 @@ We specialize in capturing timeless moments, from weddings and portraits to even
 
 | Package          | Price     | Includes |
 |------------------|-----------|----------|
-| **Basic**        | 5,000 KES | 1-hour studio session + 10 edits |
-| **Premium**      | 12,000 KES | Event coverage + 50 edits |
-| **Luxury**       | 25,000 KES | Full wedding coverage + printed photo album |
+| **Basic**        | 500 KES | 1-hour studio session + 10 edits |
+| **Premium**      | 30,000 KES | Event coverage + 50 edits |
+| **Luxury**       | 60,000 KES | Full wedding coverage + printed photo album |
 
 ---
 
@@ -58,8 +58,8 @@ We specialize in capturing timeless moments, from weddings and portraits to even
 
 📍 **Jalim Kings Studio**  
 - 📱 WhatsApp: [+254 782662427](https://wa.me/254782662427)  
-- 📷 Instagram: [@jalimkingsstudio](https://instagram.com/jalimkingsstudio)  
-- 👍 Facebook: [Jalim Kings Studio](https://facebook.com/jalimkingsstudio)  
+- 📷 Instagram: [@jalimkingsstudiospa123](https://instagram.com/jalimkingsstudiospa123)  
+- 👍 Facebook: [jalimkingsstudiospa123](https://facebook.com/jalimkingsstudiospa123)  
 - 🌐 Website: [www.jalimkingsstudio.com](https://www.jalimkingsstudio.com)  
 
 ---
