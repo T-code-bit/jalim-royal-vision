@@ -28,7 +28,7 @@ const Team = () => {
       position: "Assistant Photographer",
       image: "https://file.bwmxmd.online/bwmxmd_1vna2.jpeg",
       speciality: "Potraits Photography",
-      experience: "4+ Years",
+      experience: "2+ Years",
       icon: <Trophy className="w-5 h-5" />,
       description: "Anthony's expertise in photography ensures no moment goes unnoticed. His ability to blend into crowds while capturing key moments makes him invaluable for corporate events.",
       achievements: ["500+ corporate events", "Government event photographer", "International conference coverage"]
