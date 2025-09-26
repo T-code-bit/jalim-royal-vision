@@ -8,7 +8,7 @@ const SocialFloating = () => {
     {
       icon: Instagram,
       name: 'Instagram',
-      url: 'https://instagram.com/jalimkingsstudio',
+      url: 'https://www.instagram.com/jalimkingstudioke/',
       color: 'from-pink-500 to-purple-600',
       hoverColor: 'hover:from-pink-600 hover:to-purple-700'
     },
@@ -22,7 +22,7 @@ const SocialFloating = () => {
     {
       icon: MessageSquare,
       name: 'WhatsApp',
-      url: 'https://wa.me/254700000000',
+      url: 'https://wa.me/254782662427',
       color: 'from-green-500 to-green-600',
       hoverColor: 'hover:from-green-600 hover:to-green-700'
     }
