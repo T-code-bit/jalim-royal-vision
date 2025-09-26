@@ -6,7 +6,7 @@ const Services = () => {
     {
       icon: User,
       title: "Portrait Photography",
-      price: "From KES 3,500",
+      price: "From KES 100",
       description: "Professional headshots and personal portraits with studio-quality lighting and editing.",
       features: ["Professional lighting", "Multiple outfit changes", "High-resolution images", "Basic retouching"],
       popular: false
@@ -14,7 +14,7 @@ const Services = () => {
     {
       icon: Heart,
       title: "Wedding Packages",
-      price: "From KES 25,000",
+      price: "From KES 40,000",
       description: "Complete wedding coverage from preparation to reception with cinematic storytelling.",
       features: ["Pre-wedding consultation", "Full day coverage", "Professional editing", "Online gallery", "Print package"],
       popular: true
@@ -22,7 +22,7 @@ const Services = () => {
     {
       icon: Briefcase,
       title: "Event Photography",
-      price: "From KES 8,000",
+      price: "From KES 30,000 Based on the type of event",
       description: "Corporate events, parties, and special occasions captured with professional precision.",
       features: ["Event coverage", "Candid moments", "Group photos", "Same-day preview"],
       popular: false
@@ -30,7 +30,7 @@ const Services = () => {
     {
       icon: Package,
       title: "Product Photography",
-      price: "From KES 5,000",
+      price: "From KES 500",
       description: "Commercial product photography for e-commerce, catalogs, and marketing materials.",
       features: ["Multiple angles", "Clean backgrounds", "Lifestyle shots", "Quick turnaround"],
       popular: false
@@ -38,7 +38,7 @@ const Services = () => {
     {
       icon: Camera,
       title: "Studio Shoots",
-      price: "From KES 4,000",
+      price: "From KES 100",
       description: "Professional studio sessions with complete lighting setup and backdrop options.",
       features: ["Studio rental", "Professional lighting", "Multiple backdrops", "Outfit changes"],
       popular: false

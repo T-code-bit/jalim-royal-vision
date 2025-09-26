@@ -115,7 +115,7 @@ Looking forward to hearing from you!`;
                   </label>
                   <Input
                     type="email"
-                    placeholder="your.email@example.com"
+                    placeholder="your.email@example.com     "
                     value={formData.email}
                     onChange={(e) => setFormData(prev => ({ ...prev, email: e.target.value }))}
                     required
