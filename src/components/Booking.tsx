@@ -27,8 +27,8 @@ const Booking = () => {
   ];
 
   const addOns = [
-    { id: 'makeup', label: 'Professional Makeup', price: 'KES 2,000' },
-    { id: 'video', label: 'Video Recording', price: 'KES 5,000' },
+    { id: 'makeup', label: 'Professional Full Makeup', price: 'KES 1,500' },
+    { id: 'video', label: 'Video Recording', price: 'As From KES 1,000 Based on the video duration' },
     { id: 'prints', label: 'Premium Prints Package', price: 'KES 3,000' },
     { id: 'rush', label: 'Rush Delivery (24hrs)', price: 'KES 1,500' }
   ];

@@ -31,7 +31,7 @@ const Footer = () => {
     {
       icon: Instagram,
       name: 'Instagram',
-      url: 'https://instagram.com/jalimkingsstudio',
+      url: 'https://www.instagram.com/jalimkingstudioke/',
       hoverColor: 'hover:text-pink-400'
     },
     {
@@ -43,7 +43,7 @@ const Footer = () => {
     {
       icon: MessageSquare,
       name: 'WhatsApp',
-      url: 'https://wa.me/254700000000',
+      url: 'https://wa.me/254782662427',
       hoverColor: 'hover:text-green-400'
     }
   ];
